@@ -1,0 +1,354 @@
+{
+  "qa_pairs": [
+    {
+      "id": 1,
+      "question": "What is dengue fever?",
+      "answer": "Dengue fever is a viral infection transmitted by Aedes mosquitoes. It causes high fever, severe joint pain, headache, and rash. Most people recover in 7-10 days, but severe dengue can be life-threatening.",
+      "category": "dengue",
+      "keywords": ["dengue", "fever", "mosquito", "viral"]
+    },
+    {
+      "id": 2,
+      "question": "What are the symptoms of dengue?",
+      "answer": "Symptoms include sudden high fever, severe headache, joint and muscle pain, weakness, nausea, and skin rash. Symptoms typically appear 4-7 days after infection.",
+      "category": "dengue",
+      "keywords": ["dengue", "symptoms", "fever", "headache", "pain"]
+    },
+    {
+      "id": 3,
+      "question": "How to prevent dengue?",
+      "answer": "Prevention includes using mosquito repellent, wearing long sleeves, eliminating standing water where mosquitoes breed, using mosquito nets, and staying in air-conditioned rooms.",
+      "category": "dengue",
+      "keywords": ["dengue", "prevention", "mosquito", "repellent"]
+    },
+    {
+      "id": 4,
+      "question": "What is treatment for dengue fever?",
+      "answer": "Treatment is supportive care: rest, fluids, and paracetamol for fever. Avoid aspirin and NSAIDs. Seek medical attention if symptoms worsen. Severe dengue requires hospitalization.",
+      "category": "dengue",
+      "keywords": ["dengue", "treatment", "care", "fluids"]
+    },
+    {
+      "id": 5,
+      "question": "What is malaria?",
+      "answer": "Malaria is a parasitic disease transmitted by infected mosquitoes. It causes fever, chills, sweats, headache, and body aches. It can be fatal if not treated promptly.",
+      "category": "malaria",
+      "keywords": ["malaria", "parasitic", "mosquito", "fever"]
+    },
+    {
+      "id": 6,
+      "question": "Malaria symptoms?",
+      "answer": "Symptoms include high fever with chills and sweats, headache, muscle and joint pain, nausea, and sometimes diarrhea. Symptoms appear 7-30 days after infection.",
+      "category": "malaria",
+      "keywords": ["malaria", "symptoms", "fever", "chills"]
+    },
+    {
+      "id": 7,
+      "question": "How to prevent malaria?",
+      "answer": "Prevention includes sleeping under insecticide-treated nets, using antimalarial drugs if traveling to endemic areas, wearing protective clothing, using insect repellent, and eliminating mosquito breeding sites.",
+      "category": "malaria",
+      "keywords": ["malaria", "prevention", "mosquito", "net"]
+    },
+    {
+      "id": 8,
+      "question": "Treatment for malaria?",
+      "answer": "Antimalarial medications like artemisinin-based combination therapy (ACT) are the standard treatment. Prompt treatment is crucial to prevent severe complications and death.",
+      "category": "malaria",
+      "keywords": ["malaria", "treatment", "medication", "ACT"]
+    },
+    {
+      "id": 9,
+      "question": "What is COVID-19?",
+      "answer": "COVID-19 is a respiratory illness caused by the SARS-CoV-2 virus. It ranges from mild to severe, with symptoms including fever, cough, fatigue, and loss of taste/smell. Vaccines are available for prevention.",
+      "category": "covid-19",
+      "keywords": ["COVID-19", "coronavirus", "SARS-CoV-2", "viral"]
+    },
+    {
+      "id": 10,
+      "question": "What are COVID-19 symptoms?",
+      "answer": "Common symptoms include fever, dry cough, fatigue, shortness of breath, and loss of taste or smell. Symptoms usually appear 2-14 days after exposure.",
+      "category": "covid-19",
+      "keywords": ["COVID-19", "symptoms", "fever", "cough"]
+    },
+    {
+      "id": 11,
+      "question": "How to prevent COVID-19?",
+      "answer": "Prevention includes vaccination, wearing masks in crowded areas, maintaining social distance, washing hands frequently, ensuring good ventilation, and staying home when sick.",
+      "category": "covid-19",
+      "keywords": ["COVID-19", "prevention", "vaccine", "mask"]
+    },
+    {
+      "id": 12,
+      "question": "COVID-19 treatment?",
+      "answer": "Mild cases need rest and supportive care. For moderate/severe cases, antiviral medications like remdesivir or monoclonal antibodies may be used. Oxygen therapy is needed for severe cases.",
+      "category": "covid-19",
+      "keywords": ["COVID-19", "treatment", "medication", "care"]
+    },
+    {
+      "id": 13,
+      "question": "What is common cold?",
+      "answer": "The common cold is a viral infection of the upper respiratory tract. It causes runny nose, sore throat, cough, and sneezing. Most people recover in 7-10 days without treatment.",
+      "category": "common-cold",
+      "keywords": ["cold", "viral", "respiratory", "runny nose"]
+    },
+    {
+      "id": 14,
+      "question": "Common cold symptoms?",
+      "answer": "Symptoms include runny or stuffy nose, sore throat, cough, sneezing, fatigue, and mild headache. Symptoms usually last 7-10 days.",
+      "category": "common-cold",
+      "keywords": ["cold", "symptoms", "nose", "throat"]
+    },
+    {
+      "id": 15,
+      "question": "How to prevent common cold?",
+      "answer": "Prevention includes frequent hand washing, avoiding close contact with sick people, maintaining good hygiene, eating healthy foods, getting enough sleep, and managing stress.",
+      "category": "common-cold",
+      "keywords": ["cold", "prevention", "hygiene", "hand washing"]
+    },
+    {
+      "id": 16,
+      "question": "Common cold treatment?",
+      "answer": "Treatment is supportive: rest, fluids, throat lozenges, and over-the-counter pain relievers. There's no cure, but symptoms improve on their own within a week or two.",
+      "category": "common-cold",
+      "keywords": ["cold", "treatment", "care", "rest"]
+    },
+    {
+      "id": 17,
+      "question": "What is influenza?",
+      "answer": "Influenza (flu) is a contagious respiratory illness caused by influenza virus. It's more severe than common cold with high fever, body aches, and fatigue. Annual vaccination is recommended.",
+      "category": "influenza",
+      "keywords": ["flu", "influenza", "viral", "respiratory"]
+    },
+    {
+      "id": 18,
+      "question": "Flu symptoms?",
+      "answer": "Symptoms include sudden high fever, dry cough, severe muscle and body aches, fatigue, headache, and sore throat. Symptoms appear 1-4 days after infection.",
+      "category": "influenza",
+      "keywords": ["flu", "symptoms", "fever", "body aches"]
+    },
+    {
+      "id": 19,
+      "question": "How to prevent flu?",
+      "answer": "Get vaccinated annually, wash hands frequently, cover coughs and sneezes, avoid touching face, maintain distance from sick people, and stay home when ill.",
+      "category": "influenza",
+      "keywords": ["flu", "prevention", "vaccine", "hygiene"]
+    },
+    {
+      "id": 20,
+      "question": "Flu treatment?",
+      "answer": "Antiviral medications like oseltamivir (Tamiflu) can reduce duration if taken early. Supportive care includes rest, fluids, pain relievers, and fever reducers.",
+      "category": "influenza",
+      "keywords": ["flu", "treatment", "medication", "care"]
+    },
+    {
+      "id": 21,
+      "question": "What causes high blood pressure?",
+      "answer": "High blood pressure can result from genetics, obesity, lack of exercise, high salt intake, excessive alcohol, stress, and certain medical conditions. Age and smoking also increase risk.",
+      "category": "hypertension",
+      "keywords": ["blood pressure", "hypertension", "causes"]
+    },
+    {
+      "id": 22,
+      "question": "High blood pressure symptoms?",
+      "answer": "Most people have no symptoms. When present, symptoms include headache, shortness of breath, nosebleeds, and chest pain. Regular checks are important for early detection.",
+      "category": "hypertension",
+      "keywords": ["blood pressure", "hypertension", "symptoms"]
+    },
+    {
+      "id": 23,
+      "question": "How to manage blood pressure?",
+      "answer": "Management includes reducing salt intake, regular exercise, maintaining healthy weight, limiting alcohol, managing stress, not smoking, and taking prescribed medications as directed.",
+      "category": "hypertension",
+      "keywords": ["blood pressure", "management", "lifestyle"]
+    },
+    {
+      "id": 24,
+      "question": "What is diabetes?",
+      "answer": "Diabetes is a condition where blood sugar levels are too high. Type 1 is autoimmune; Type 2 results from insulin resistance. Both need management through diet, exercise, and medication.",
+      "category": "diabetes",
+      "keywords": ["diabetes", "blood sugar", "glucose"]
+    },
+    {
+      "id": 25,
+      "question": "Diabetes symptoms?",
+      "answer": "Symptoms include increased thirst, frequent urination, fatigue, blurred vision, and slow-healing cuts. Some people have no symptoms initially and discover it through screening.",
+      "category": "diabetes",
+      "keywords": ["diabetes", "symptoms", "glucose"]
+    },
+    {
+      "id": 26,
+      "question": "How to prevent diabetes?",
+      "answer": "Prevention includes maintaining healthy weight, regular physical activity, eating balanced diet with less sugar and refined carbs, limiting alcohol, and managing stress.",
+      "category": "diabetes",
+      "keywords": ["diabetes", "prevention", "lifestyle"]
+    },
+    {
+      "id": 27,
+      "question": "What is asthma?",
+      "answer": "Asthma is a chronic respiratory condition causing airways to narrow and swell. Symptoms include shortness of breath, cough, wheezing, and chest tightness. It's manageable with treatment.",
+      "category": "asthma",
+      "keywords": ["asthma", "respiratory", "breathing"]
+    },
+    {
+      "id": 28,
+      "question": "Asthma triggers?",
+      "answer": "Common triggers include allergens, exercise, cold air, stress, pollution, and infections. Individual triggers vary, so identifying them through a diary is helpful.",
+      "category": "asthma",
+      "keywords": ["asthma", "triggers", "allergens"]
+    },
+    {
+      "id": 29,
+      "question": "How to manage asthma?",
+      "answer": "Management includes using prescribed inhalers regularly, avoiding triggers, maintaining good fitness, keeping environment clean, managing allergies, and having an asthma action plan.",
+      "category": "asthma",
+      "keywords": ["asthma", "management", "inhaler"]
+    },
+    {
+      "id": 30,
+      "question": "What is heart disease?",
+      "answer": "Heart disease refers to various conditions affecting the heart like coronary artery disease, heart attacks, and arrhythmias. Risk factors include high blood pressure, diabetes, and smoking.",
+      "category": "heart-disease",
+      "keywords": ["heart disease", "cardiac", "heart"]
+    },
+    {
+      "id": 31,
+      "question": "Heart disease symptoms?",
+      "answer": "Symptoms include chest pain or pressure, shortness of breath, fatigue, dizziness, and irregular heartbeat. Seek emergency care if experiencing chest pain.",
+      "category": "heart-disease",
+      "keywords": ["heart disease", "symptoms", "chest pain"]
+    },
+    {
+      "id": 32,
+      "question": "How to prevent heart disease?",
+      "answer": "Prevention includes regular exercise, eating heart-healthy diet low in saturated fat, not smoking, managing stress, controlling weight, and managing blood pressure and diabetes.",
+      "category": "heart-disease",
+      "keywords": ["heart disease", "prevention", "lifestyle"]
+    },
+    {
+      "id": 33,
+      "question": "What is arthritis?",
+      "answer": "Arthritis is inflammation of joints causing pain and stiffness. Osteoarthritis results from wear and tear; rheumatoid arthritis is autoimmune. Both affect mobility and quality of life.",
+      "category": "arthritis",
+      "keywords": ["arthritis", "joint", "inflammation"]
+    },
+    {
+      "id": 34,
+      "question": "Arthritis symptoms?",
+      "answer": "Symptoms include joint pain, stiffness, swelling, reduced range of motion, and warmth around joints. Symptoms worsen with age and use.",
+      "category": "arthritis",
+      "keywords": ["arthritis", "symptoms", "joint pain"]
+    },
+    {
+      "id": 35,
+      "question": "How to manage arthritis?",
+      "answer": "Management includes exercise, physical therapy, pain medications, hot/cold therapy, weight management, and sometimes injections or surgery in severe cases.",
+      "category": "arthritis",
+      "keywords": ["arthritis", "management", "treatment"]
+    },
+    {
+      "id": 36,
+      "question": "What is thyroid disease?",
+      "answer": "Thyroid disease involves abnormal thyroid hormone production. Hyperthyroidism produces too much; hypothyroidism produces too little. Both affect metabolism and energy.",
+      "category": "thyroid",
+      "keywords": ["thyroid", "endocrine", "hormone"]
+    },
+    {
+      "id": 37,
+      "question": "Thyroid disease symptoms?",
+      "answer": "Hyperthyroid symptoms: rapid heartbeat, weight loss, anxiety. Hypothyroid symptoms: fatigue, weight gain, cold sensitivity. Thyroid blood tests can diagnose the condition.",
+      "category": "thyroid",
+      "keywords": ["thyroid", "symptoms", "hormone"]
+    },
+    {
+      "id": 38,
+      "question": "How to manage thyroid disease?",
+      "answer": "Management depends on the type: medications to regulate hormone levels, regular monitoring of blood levels, dietary adjustments, and stress management.",
+      "category": "thyroid",
+      "keywords": ["thyroid", "management", "medication"]
+    },
+    {
+      "id": 39,
+      "question": "What is anxiety disorder?",
+      "answer": "Anxiety disorder involves excessive worry and fear affecting daily life. Types include generalized anxiety, panic disorder, and phobias. Treatment includes therapy and medication.",
+      "category": "mental-health",
+      "keywords": ["anxiety", "mental health", "disorder"]
+    },
+    {
+      "id": 40,
+      "question": "Anxiety symptoms?",
+      "answer": "Symptoms include excessive worry, panic attacks, shortness of breath, chest pain, rapid heartbeat, and difficulty concentrating. Physical and mental symptoms often occur together.",
+      "category": "mental-health",
+      "keywords": ["anxiety", "symptoms", "panic"]
+    },
+    {
+      "id": 41,
+      "question": "How to manage anxiety?",
+      "answer": "Management includes cognitive behavioral therapy, relaxation techniques, regular exercise, meditation, limiting caffeine, adequate sleep, and medication if needed.",
+      "category": "mental-health",
+      "keywords": ["anxiety", "management", "therapy"]
+    },
+    {
+      "id": 42,
+      "question": "What is depression?",
+      "answer": "Depression is a mood disorder causing persistent sadness, hopelessness, and loss of interest. It affects thoughts, emotions, and physical health. Treatment is essential and effective.",
+      "category": "mental-health",
+      "keywords": ["depression", "mental health", "mood"]
+    },
+    {
+      "id": 43,
+      "question": "Depression symptoms?",
+      "answer": "Symptoms include persistent sadness, loss of interest in activities, fatigue, sleep changes, appetite changes, difficulty concentrating, and suicidal thoughts in severe cases.",
+      "category": "mental-health",
+      "keywords": ["depression", "symptoms", "mood"]
+    },
+    {
+      "id": 44,
+      "question": "How to manage depression?",
+      "answer": "Management includes psychotherapy, antidepressant medications, regular exercise, social support, sleep hygiene, and addressing underlying health issues. Professional help is important.",
+      "category": "mental-health",
+      "keywords": ["depression", "management", "therapy"]
+    },
+    {
+      "id": 45,
+      "question": "What is obesity?",
+      "answer": "Obesity is having excess body weight affecting health. It increases risk of heart disease, diabetes, and certain cancers. BMI over 30 indicates obesity.",
+      "category": "weight-management",
+      "keywords": ["obesity", "weight", "BMI"]
+    },
+    {
+      "id": 46,
+      "question": "How to manage weight?",
+      "answer": "Weight management involves balanced diet, regular physical activity, portion control, reducing processed foods, managing stress, and adequate sleep. Professional support may help.",
+      "category": "weight-management",
+      "keywords": ["weight", "management", "diet"]
+    },
+    {
+      "id": 47,
+      "question": "What is vitamin D deficiency?",
+      "answer": "Vitamin D deficiency occurs when there's insufficient vitamin D, affecting bone health and immune system. Risk factors include limited sun exposure and poor diet.",
+      "category": "nutrition",
+      "keywords": ["vitamin D", "deficiency", "nutrition"]
+    },
+    {
+      "id": 48,
+      "question": "Vitamin D deficiency symptoms?",
+      "answer": "Symptoms include bone pain, muscle weakness, fatigue, mood changes, and frequent infections. Blood tests confirm diagnosis. Supplements and sun exposure help.",
+      "category": "nutrition",
+      "keywords": ["vitamin D", "symptoms", "deficiency"]
+    },
+    {
+      "id": 49,
+      "question": "What is insomnia?",
+      "answer": "Insomnia is difficulty falling or staying asleep. It can be acute or chronic. Causes include stress, medical conditions, lifestyle habits, and mental health issues.",
+      "category": "sleep-disorders",
+      "keywords": ["insomnia", "sleep", "disorder"]
+    },
+    {
+      "id": 50,
+      "question": "How to improve sleep?",
+      "answer": "Improve sleep through regular bedtime, avoiding screens before bed, limiting caffeine, creating dark and cool bedroom, exercising regularly, and managing stress. Consult doctor if problems persist.",
+      "category": "sleep-disorders",
+      "keywords": ["sleep", "insomnia", "improvement"]
+    }
+  ]
+}

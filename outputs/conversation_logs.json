@@ -1,0 +1,200 @@
+{
+  "metadata": {
+    "generated_at": "2025-11-03T22:36:59.215153",
+    "total_conversations": 10,
+    "model": "TF-IDF with Cosine Similarity",
+    "confidence_threshold": 0.3
+  },
+  "conversations": [
+    {
+      "conversation_id": 1,
+      "timestamp": "2025-11-03T22:36:59.215162",
+      "user_input": "What is dengue fever and how does it spread?",
+      "chatbot_response": {
+        "success": true,
+        "answer": "Dengue fever is a viral infection transmitted by Aedes mosquitoes. It causes high fever, severe joint pain, headache, and rash. Most people recover in 7-10 days, but severe dengue can be life-threatening.",
+        "confidence": 1.0,
+        "category": "dengue",
+        "confidence_percentage": "100.0%",
+        "explanation": "Similarity Score: 100.0%\nCategory: Dengue\nMatched Keywords: dengue, fever\nOriginal Question: What is dengue fever?\nWhy This Match: High textual similarity between your query and this Q&A pair.",
+        "matched_original_question": "What is dengue fever?"
+      },
+      "quality_metrics": {
+        "similarity_score": 1.0,
+        "has_alternatives": true,
+        "num_alternatives": 2
+      }
+    },
+    {
+      "conversation_id": 2,
+      "timestamp": "2025-11-03T22:36:59.215178",
+      "user_input": "Tell me about COVID-19 symptoms and prevention",
+      "chatbot_response": {
+        "success": true,
+        "answer": "Common symptoms include fever, dry cough, fatigue, shortness of breath, and loss of taste or smell. Symptoms usually appear 2-14 days after exposure.",
+        "confidence": 1.0000000000000002,
+        "category": "covid-19",
+        "confidence_percentage": "100.0%",
+        "explanation": "Similarity Score: 100.0%\nCategory: Covid 19\nOriginal Question: What are COVID-19 symptoms?\nWhy This Match: High textual similarity between your query and this Q&A pair.",
+        "matched_original_question": "What are COVID-19 symptoms?"
+      },
+      "quality_metrics": {
+        "similarity_score": 1.0000000000000002,
+        "has_alternatives": true,
+        "num_alternatives": 2
+      }
+    },
+    {
+      "conversation_id": 3,
+      "timestamp": "2025-11-03T22:36:59.215185",
+      "user_input": "I have symptoms like high fever, body aches, and headache. What could it be?",
+      "chatbot_response": {
+        "success": true,
+        "answer": "Dengue fever is a viral infection transmitted by Aedes mosquitoes. It causes high fever, severe joint pain, headache, and rash. Most people recover in 7-10 days, but severe dengue can be life-threatening.",
+        "confidence": 0.392632570136656,
+        "category": "dengue",
+        "confidence_percentage": "39.3%",
+        "explanation": "Similarity Score: 39.3%\nCategory: Dengue\nMatched Keywords: fever\nOriginal Question: What is dengue fever?\nWhy This Match: High textual similarity between your query and this Q&A pair.",
+        "matched_original_question": "What is dengue fever?"
+      },
+      "quality_metrics": {
+        "similarity_score": 0.392632570136656,
+        "has_alternatives": true,
+        "num_alternatives": 2
+      }
+    },
+    {
+      "conversation_id": 4,
+      "timestamp": "2025-11-03T22:36:59.215190",
+      "user_input": "How can I prevent malaria when traveling to endemic areas?",
+      "chatbot_response": {
+        "success": true,
+        "answer": "Prevention includes sleeping under insecticide-treated nets, using antimalarial drugs if traveling to endemic areas, wearing protective clothing, using insect repellent, and eliminating mosquito breeding sites.",
+        "confidence": 1.0000000000000002,
+        "category": "malaria",
+        "confidence_percentage": "100.0%",
+        "explanation": "Similarity Score: 100.0%\nCategory: Malaria\nMatched Keywords: malaria\nOriginal Question: How to prevent malaria?\nWhy This Match: High textual similarity between your query and this Q&A pair.",
+        "matched_original_question": "How to prevent malaria?"
+      },
+      "quality_metrics": {
+        "similarity_score": 1.0000000000000002,
+        "has_alternatives": true,
+        "num_alternatives": 2
+      }
+    },
+    {
+      "conversation_id": 5,
+      "timestamp": "2025-11-03T22:36:59.215194",
+      "user_input": "What are the risk factors for high blood pressure?",
+      "chatbot_response": {
+        "success": true,
+        "answer": "Most people have no symptoms. When present, symptoms include headache, shortness of breath, nosebleeds, and chest pain. Regular checks are important for early detection.",
+        "confidence": 0.8619085093748166,
+        "category": "hypertension",
+        "confidence_percentage": "86.2%",
+        "explanation": "Similarity Score: 86.2%\nCategory: Hypertension\nOriginal Question: High blood pressure symptoms?\nWhy This Match: High textual similarity between your query and this Q&A pair.",
+        "matched_original_question": "High blood pressure symptoms?"
+      },
+      "quality_metrics": {
+        "similarity_score": 0.8619085093748166,
+        "has_alternatives": true,
+        "num_alternatives": 2
+      }
+    },
+    {
+      "conversation_id": 6,
+      "timestamp": "2025-11-03T22:36:59.215199",
+      "user_input": "I've been feeling tired and gaining weight unexpectedly",
+      "chatbot_response": {
+        "success": true,
+        "answer": "Weight management involves balanced diet, regular physical activity, portion control, reducing processed foods, managing stress, and adequate sleep. Professional support may help.",
+        "confidence": 0.6385052031039968,
+        "category": "weight-management",
+        "confidence_percentage": "63.9%",
+        "explanation": "Similarity Score: 63.9%\nCategory: Weight Management\nMatched Keywords: weight\nOriginal Question: How to manage weight?\nWhy This Match: High textual similarity between your query and this Q&A pair.",
+        "matched_original_question": "How to manage weight?"
+      },
+      "quality_metrics": {
+        "similarity_score": 0.6385052031039968,
+        "has_alternatives": false,
+        "num_alternatives": 0
+      }
+    },
+    {
+      "conversation_id": 7,
+      "timestamp": "2025-11-03T22:36:59.215203",
+      "user_input": "How is influenza different from common cold?",
+      "chatbot_response": {
+        "success": true,
+        "answer": "The common cold is a viral infection of the upper respiratory tract. It causes runny nose, sore throat, cough, and sneezing. Most people recover in 7-10 days without treatment.",
+        "confidence": 0.8051568624110986,
+        "category": "common-cold",
+        "confidence_percentage": "80.5%",
+        "explanation": "Similarity Score: 80.5%\nCategory: Common Cold\nMatched Keywords: cold\nOriginal Question: What is common cold?\nWhy This Match: High textual similarity between your query and this Q&A pair.",
+        "matched_original_question": "What is common cold?"
+      },
+      "quality_metrics": {
+        "similarity_score": 0.8051568624110986,
+        "has_alternatives": true,
+        "num_alternatives": 2
+      }
+    },
+    {
+      "conversation_id": 8,
+      "timestamp": "2025-11-03T22:36:59.215206",
+      "user_input": "What should I do if I have severe joint pain?",
+      "chatbot_response": {
+        "success": false,
+        "answer": "Confidence too low (score: 0.00%). Please rephrase or consult a medical professional.",
+        "confidence": 0.0,
+        "category": "fallback",
+        "confidence_percentage": "0.0%",
+        "explanation": "Low confidence match - using fallback response.",
+        "matched_original_question": null
+      },
+      "quality_metrics": {
+        "similarity_score": 0.0,
+        "has_alternatives": false,
+        "num_alternatives": 0
+      }
+    },
+    {
+      "conversation_id": 9,
+      "timestamp": "2025-11-03T22:36:59.215210",
+      "user_input": "I'm experiencing heart palpitations and shortness of breath",
+      "chatbot_response": {
+        "success": true,
+        "answer": "Heart disease refers to various conditions affecting the heart like coronary artery disease, heart attacks, and arrhythmias. Risk factors include high blood pressure, diabetes, and smoking.",
+        "confidence": 0.6075420893660524,
+        "category": "heart-disease",
+        "confidence_percentage": "60.8%",
+        "explanation": "Similarity Score: 60.8%\nCategory: Heart Disease\nMatched Keywords: heart\nOriginal Question: What is heart disease?\nWhy This Match: High textual similarity between your query and this Q&A pair.",
+        "matched_original_question": "What is heart disease?"
+      },
+      "quality_metrics": {
+        "similarity_score": 0.6075420893660524,
+        "has_alternatives": true,
+        "num_alternatives": 2
+      }
+    },
+    {
+      "conversation_id": 10,
+      "timestamp": "2025-11-03T22:36:59.215214",
+      "user_input": "Can stress cause physical health problems?",
+      "chatbot_response": {
+        "success": false,
+        "answer": "Confidence too low (score: 0.00%). Please rephrase or consult a medical professional.",
+        "confidence": 0.0,
+        "category": "fallback",
+        "confidence_percentage": "0.0%",
+        "explanation": "Low confidence match - using fallback response.",
+        "matched_original_question": null
+      },
+      "quality_metrics": {
+        "similarity_score": 0.0,
+        "has_alternatives": false,
+        "num_alternatives": 0
+      }
+    }
+  ]
+}

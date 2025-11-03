@@ -1,0 +1,289 @@
+{
+  "metadata": {
+    "total_queries": 28,
+    "model": "TF-IDF with Cosine Similarity",
+    "confidence_threshold": 0.3
+  },
+  "query_analysis": [
+    {
+      "query_id": 1,
+      "query_text": "What is dengue fever?",
+      "answer": "Dengue fever is a viral infection transmitted by Aedes mosquitoes. It causes high fever, severe joint pain, headache, and rash. Most people recover in...",
+      "confidence": 1.0,
+      "confidence_percentage": "100.0%",
+      "category": "dengue",
+      "is_successful": true,
+      "matched_question": "What is dengue fever?"
+    },
+    {
+      "query_id": 2,
+      "query_text": "How dengue spreads mosquitoes",
+      "answer": "Symptoms include sudden high fever, severe headache, joint and muscle pain, weakness, nausea, and skin rash. Symptoms typically appear 4-7 days after ...",
+      "confidence": 0.5676066777131813,
+      "confidence_percentage": "56.8%",
+      "category": "dengue",
+      "is_successful": true,
+      "matched_question": "What are the symptoms of dengue?"
+    },
+    {
+      "query_id": 3,
+      "query_text": "Dengue prevention tips",
+      "answer": "Symptoms include sudden high fever, severe headache, joint and muscle pain, weakness, nausea, and skin rash. Symptoms typically appear 4-7 days after ...",
+      "confidence": 0.5676066777131813,
+      "confidence_percentage": "56.8%",
+      "category": "dengue",
+      "is_successful": true,
+      "matched_question": "What are the symptoms of dengue?"
+    },
+    {
+      "query_id": 4,
+      "query_text": "Tell me about malaria symptoms",
+      "answer": "Symptoms include high fever with chills and sweats, headache, muscle and joint pain, nausea, and sometimes diarrhea. Symptoms appear 7-30 days after i...",
+      "confidence": 1.0,
+      "confidence_percentage": "100.0%",
+      "category": "malaria",
+      "is_successful": true,
+      "matched_question": "Malaria symptoms?"
+    },
+    {
+      "query_id": 5,
+      "query_text": "Malaria treatment options",
+      "answer": "Antimalarial medications like artemisinin-based combination therapy (ACT) are the standard treatment. Prompt treatment is crucial to prevent severe co...",
+      "confidence": 0.7332933233796184,
+      "confidence_percentage": "73.3%",
+      "category": "malaria",
+      "is_successful": true,
+      "matched_question": "Treatment for malaria?"
+    },
+    {
+      "query_id": 6,
+      "query_text": "How to prevent malaria",
+      "answer": "Prevention includes sleeping under insecticide-treated nets, using antimalarial drugs if traveling to endemic areas, wearing protective clothing, usin...",
+      "confidence": 1.0000000000000002,
+      "confidence_percentage": "100.0%",
+      "category": "malaria",
+      "is_successful": true,
+      "matched_question": "How to prevent malaria?"
+    },
+    {
+      "query_id": 7,
+      "query_text": "What is COVID-19?",
+      "answer": "COVID-19 is a respiratory illness caused by the SARS-CoV-2 virus. It ranges from mild to severe, with symptoms including fever, cough, fatigue, and lo...",
+      "confidence": 1.0,
+      "confidence_percentage": "100.0%",
+      "category": "covid-19",
+      "is_successful": true,
+      "matched_question": "What is COVID-19?"
+    },
+    {
+      "query_id": 8,
+      "query_text": "COVID symptoms and prevention",
+      "answer": "Common symptoms include fever, dry cough, fatigue, shortness of breath, and loss of taste or smell. Symptoms usually appear 2-14 days after exposure.",
+      "confidence": 0.5378079748619147,
+      "confidence_percentage": "53.8%",
+      "category": "covid-19",
+      "is_successful": true,
+      "matched_question": "What are COVID-19 symptoms?"
+    },
+    {
+      "query_id": 9,
+      "query_text": "COVID-19 vaccine information",
+      "answer": "COVID-19 is a respiratory illness caused by the SARS-CoV-2 virus. It ranges from mild to severe, with symptoms including fever, cough, fatigue, and lo...",
+      "confidence": 1.0,
+      "confidence_percentage": "100.0%",
+      "category": "covid-19",
+      "is_successful": true,
+      "matched_question": "What is COVID-19?"
+    },
+    {
+      "query_id": 10,
+      "query_text": "Cold prevention methods",
+      "answer": "The common cold is a viral infection of the upper respiratory tract. It causes runny nose, sore throat, cough, and sneezing. Most people recover in 7-...",
+      "confidence": 0.5773502691896257,
+      "confidence_percentage": "57.7%",
+      "category": "common-cold",
+      "is_successful": true,
+      "matched_question": "What is common cold?"
+    },
+    {
+      "query_id": 11,
+      "query_text": "Common cold treatment",
+      "answer": "Treatment is supportive: rest, fluids, throat lozenges, and over-the-counter pain relievers. There's no cure, but symptoms improve on their own within...",
+      "confidence": 1.0,
+      "confidence_percentage": "100.0%",
+      "category": "common-cold",
+      "is_successful": true,
+      "matched_question": "Common cold treatment?"
+    },
+    {
+      "query_id": 12,
+      "query_text": "Influenza symptoms",
+      "answer": "Influenza (flu) is a contagious respiratory illness caused by influenza virus. It's more severe than common cold with high fever, body aches, and fati...",
+      "confidence": 0.8795683909862728,
+      "confidence_percentage": "88.0%",
+      "category": "influenza",
+      "is_successful": true,
+      "matched_question": "What is influenza?"
+    },
+    {
+      "query_id": 13,
+      "query_text": "Flu vaccine importance",
+      "answer": "Symptoms include sudden high fever, dry cough, severe muscle and body aches, fatigue, headache, and sore throat. Symptoms appear 1-4 days after infect...",
+      "confidence": 0.5926200817042926,
+      "confidence_percentage": "59.3%",
+      "category": "influenza",
+      "is_successful": true,
+      "matched_question": "Flu symptoms?"
+    },
+    {
+      "query_id": 14,
+      "query_text": "What causes diabetes?",
+      "answer": "Diabetes is a condition where blood sugar levels are too high. Type 1 is autoimmune; Type 2 results from insulin resistance. Both need management thro...",
+      "confidence": 0.6416036202442695,
+      "confidence_percentage": "64.2%",
+      "category": "diabetes",
+      "is_successful": true,
+      "matched_question": "What is diabetes?"
+    },
+    {
+      "query_id": 15,
+      "query_text": "Diabetes management",
+      "answer": "Diabetes is a condition where blood sugar levels are too high. Type 1 is autoimmune; Type 2 results from insulin resistance. Both need management thro...",
+      "confidence": 1.0,
+      "confidence_percentage": "100.0%",
+      "category": "diabetes",
+      "is_successful": true,
+      "matched_question": "What is diabetes?"
+    },
+    {
+      "query_id": 16,
+      "query_text": "Diabetes prevention",
+      "answer": "Diabetes is a condition where blood sugar levels are too high. Type 1 is autoimmune; Type 2 results from insulin resistance. Both need management thro...",
+      "confidence": 1.0,
+      "confidence_percentage": "100.0%",
+      "category": "diabetes",
+      "is_successful": true,
+      "matched_question": "What is diabetes?"
+    },
+    {
+      "query_id": 17,
+      "query_text": "Heart disease prevention",
+      "answer": "Heart disease refers to various conditions affecting the heart like coronary artery disease, heart attacks, and arrhythmias. Risk factors include high...",
+      "confidence": 1.0,
+      "confidence_percentage": "100.0%",
+      "category": "heart-disease",
+      "is_successful": true,
+      "matched_question": "What is heart disease?"
+    },
+    {
+      "query_id": 18,
+      "query_text": "High blood pressure management",
+      "answer": "Most people have no symptoms. When present, symptoms include headache, shortness of breath, nosebleeds, and chest pain. Regular checks are important f...",
+      "confidence": 0.8619085093748166,
+      "confidence_percentage": "86.2%",
+      "category": "hypertension",
+      "is_successful": true,
+      "matched_question": "High blood pressure symptoms?"
+    },
+    {
+      "query_id": 19,
+      "query_text": "How to manage anxiety",
+      "answer": "Management includes cognitive behavioral therapy, relaxation techniques, regular exercise, meditation, limiting caffeine, adequate sleep, and medicati...",
+      "confidence": 1.0,
+      "confidence_percentage": "100.0%",
+      "category": "mental-health",
+      "is_successful": true,
+      "matched_question": "How to manage anxiety?"
+    },
+    {
+      "query_id": 20,
+      "query_text": "Depression treatment options",
+      "answer": "Depression is a mood disorder causing persistent sadness, hopelessness, and loss of interest. It affects thoughts, emotions, and physical health. Trea...",
+      "confidence": 0.7486155880565134,
+      "confidence_percentage": "74.9%",
+      "category": "mental-health",
+      "is_successful": true,
+      "matched_question": "What is depression?"
+    },
+    {
+      "query_id": 21,
+      "query_text": "Asthma triggers and management",
+      "answer": "Common triggers include allergens, exercise, cold air, stress, pollution, and infections. Individual triggers vary, so identifying them through a diar...",
+      "confidence": 1.0000000000000004,
+      "confidence_percentage": "100.0%",
+      "category": "asthma",
+      "is_successful": true,
+      "matched_question": "Asthma triggers?"
+    },
+    {
+      "query_id": 22,
+      "query_text": "Arthritis symptoms and treatment",
+      "answer": "Symptoms include joint pain, stiffness, swelling, reduced range of motion, and warmth around joints. Symptoms worsen with age and use.",
+      "confidence": 0.8854531578930687,
+      "confidence_percentage": "88.5%",
+      "category": "arthritis",
+      "is_successful": true,
+      "matched_question": "Arthritis symptoms?"
+    },
+    {
+      "query_id": 23,
+      "query_text": "Weight management tips",
+      "answer": "Weight management involves balanced diet, regular physical activity, portion control, reducing processed foods, managing stress, and adequate sleep. P...",
+      "confidence": 0.6385052031039968,
+      "confidence_percentage": "63.9%",
+      "category": "weight-management",
+      "is_successful": true,
+      "matched_question": "How to manage weight?"
+    },
+    {
+      "query_id": 24,
+      "query_text": "xyz abc qwerty random nonsense",
+      "answer": "Confidence too low (score: 0.00%). Please rephrase or consult a medical professional.",
+      "confidence": 0.0,
+      "confidence_percentage": "0.0%",
+      "category": "fallback",
+      "is_successful": false,
+      "matched_question": null
+    },
+    {
+      "query_id": 25,
+      "query_text": "12345 ajskdhak",
+      "answer": "Confidence too low (score: 0.00%). Please rephrase or consult a medical professional.",
+      "confidence": 0.0,
+      "confidence_percentage": "0.0%",
+      "category": "fallback",
+      "is_successful": false,
+      "matched_question": null
+    },
+    {
+      "query_id": 26,
+      "query_text": "I feel tired and weak",
+      "answer": "Confidence too low (score: 0.00%). Please rephrase or consult a medical professional.",
+      "confidence": 0.0,
+      "confidence_percentage": "0.0%",
+      "category": "fallback",
+      "is_successful": false,
+      "matched_question": null
+    },
+    {
+      "query_id": 27,
+      "query_text": "I have fever and body aches",
+      "answer": "Dengue fever is a viral infection transmitted by Aedes mosquitoes. It causes high fever, severe joint pain, headache, and rash. Most people recover in...",
+      "confidence": 0.6028875505419394,
+      "confidence_percentage": "60.3%",
+      "category": "dengue",
+      "is_successful": true,
+      "matched_question": "What is dengue fever?"
+    },
+    {
+      "query_id": 28,
+      "query_text": "Chest pain symptoms",
+      "answer": "Symptoms include sudden high fever, severe headache, joint and muscle pain, weakness, nausea, and skin rash. Symptoms typically appear 4-7 days after ...",
+      "confidence": 0.39170340997412056,
+      "confidence_percentage": "39.2%",
+      "category": "dengue",
+      "is_successful": true,
+      "matched_question": "What are the symptoms of dengue?"
+    }
+  ]
+}
